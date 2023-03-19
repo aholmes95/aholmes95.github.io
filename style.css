@@ -1,10 +1,124 @@
+/* Global Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
   }
   
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  
   header {
-    background-color: #333;
-    color: #fff;
-    display: flex
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #333;
+  }
+  
+  /* Home Page Styles */
+  
+  .home-page h2 {
+    font-size: 36px;
+    margin-top: 40px;
+  }
+  
+  .home-page p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Blog Styles */
+  
+  .blog-post h2 {
+    font-size: 36px;
+    margin-top: 40px;
+  }
+  
+  .blog-post p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .blog-post ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .blog-post li {
+    margin-bottom: 10px;
+  }
+  
+  .blog-post a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .blog-post a:hover {
+    border-bottom: 2px solid #333;
+  }
+  
+  /* Resources Page Styles */
+  
+  .resources-page h2 {
+    font-size: 36px;
+    margin-top: 40px;
+  }
+  
+  .resources-page p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .resources-page ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resources-page li {
+    margin-bottom: 10px;
+  }
+  
+  .resources-page a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .resources-page a:hover {
+    border-bottom: 2px solid #333;
+  }
   
